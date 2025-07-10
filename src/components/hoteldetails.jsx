@@ -160,7 +160,7 @@ function HotelDetails() {
           src={hotel.imageofroom}
           alt={hotel.name}
           className="w-full lg:w-1/2 object-cover rounded-lg"
-          onError={(e) => (e.target.src = 'fallback-image-url')}
+          onError={(e) => (e.target.src = '/bgimage.avif')}
         />
         <div className="w-full lg:w-1/2 p-6">
           <h1 className="text-5xl font-bold">{hotel.name},</h1>

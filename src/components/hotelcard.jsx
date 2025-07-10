@@ -19,7 +19,7 @@ const HotelCard = ({ hotel }) => {
         <img
           src={hotel.imageofroom}
           alt={hotel.name}
-          onError={(e) => (e.target.src = "fallback-image-url")} // Fallback image URL
+          onError={(e) => (e.target.src = "/bgimage.avif" )} // Fallback image URL
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-95 rounded-lg"
         />
         {/* Rate Badge */}
